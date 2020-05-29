@@ -6,9 +6,8 @@ class HelloWorldDelegate extends WatchUi.BehaviorDelegate {
         BehaviorDelegate.initialize();
     }
 
-    function onMenu() {
-        WatchUi.pushView(new Rez.Menus.MainMenu(), new HelloWorldMenuDelegate(), WatchUi.SLIDE_UP);
-        return true;
+    function onSelect() {
+        WatchUi.pushView(new MonkeyView(), new MonkeyDelegate(), WatchUi.SLIDE_LEFT);
     }
 
 }

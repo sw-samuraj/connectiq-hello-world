@@ -1,0 +1,6 @@
+<layouts>
+	<layout id="MonkeyLayout">
+		<bitmap id="id_monkey" x="center" y="0" filename="../drawables/monkey-face.png" />
+		<label x="center" y="center" text="@Strings.helloMonkey" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+	</layout>
+</layouts>
